@@ -36,6 +36,14 @@ int main()
     cin >> number;*/
     
 
+
+    bool IsCool = 1;
+    if (IsCool)
+    {
+        cout << "Hello" << endl;
+    }
+
+
 }
 
 
