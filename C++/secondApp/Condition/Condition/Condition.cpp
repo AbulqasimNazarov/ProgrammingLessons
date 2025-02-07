@@ -39,5 +39,30 @@ int main()
 		cout << "hello" << endl;
 	}*/
 
+#include <iostream>
+	cout << "Hello";
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
