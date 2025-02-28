@@ -2,14 +2,62 @@
 using namespace std;
 
 
-void Sum(int num1, int num2) {
-    cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
+int Sum() {
+
+    int a, b, c, sum, numbers;
+    cout << "Enter your first number: ", cin >> a;
+    cout << "Enter your second number: ", cin >> b;
+    cout << "Enter your third number: ", cin >> c;
+    bool cap = (a > 0 && b > 0 && c > 0) ? true : false;
+    if (cap == true)
+    {
+        sum = a + b + c;
+        return sum;
+
+    }
+    else {
+        cout << "Error" << endl;
+    }
+
 }
 
 
-void Minus(int num1, int num2) {
-    cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
+int Mult() {
+
+    int a, b, c, mult;
+    cout << "Enter your first number: ", cin >> a;
+    cout << "Enter your second number: ", cin >> b;
+    cout << "Enter your third number: ", cin >> c;
+    bool cap = (a > 0 && b > 0 && c > 0) ? true : false;
+    if (cap == true)
+    {
+        mult = a * b * c;
+        return mult;
+
+    }
+    else {
+        cout << "Error" << endl;;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -17,17 +65,19 @@ void Minus(int num1, int num2) {
 
 
 int main() {
-    /*int num1 = 0, num2 = 0;
-    cout << "Enter number1: ";
-    cin >> num1;
-    cout << "Enter number2: ";
-    cin >> num2;
-    Sum(num1, num2);
-    Minus(num1, num2);*/
 
 
+    int sum = Sum();
+    int mult = Mult();
 
-    int height = 0;
+    cout << sum << ", " << mult << endl;
+
+
+    /*int test = Sum1();
+    cout << test << endl;*/
+    //Sum();
+    
+    /*int height = 0;
     cout << "Enter your triangle: ";
     cin >> height;
     for (int i = height; i > 0; i--)
@@ -36,7 +86,9 @@ int main() {
             cout << "* ";
         }
         cout << endl;
-    }
+    }*/
+
+
 
 }
 
