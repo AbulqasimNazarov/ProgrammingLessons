@@ -84,3 +84,8 @@
 #     print(end='')
 #     print("*")
 #     j += 1
+
+
+
+money = 12
+print(float(money))
