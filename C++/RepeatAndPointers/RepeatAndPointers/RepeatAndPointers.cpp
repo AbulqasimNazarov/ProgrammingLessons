@@ -7,19 +7,33 @@ using namespace std;
 //    *money = (*money * 150) / 100;
 //}
 
-void AddText(string* TxtFile) {
-    *TxtFile = *TxtFile + " World";
+//void AddText(string* TxtFile) {
+//    *TxtFile = *TxtFile + " World";
+//}
+
+
+void Test(int* num) {
+    *num = 34;
 }
+
+
+
+
 
 int main()
 {
-    string TxtFile = "";
+    int test = 89;
+    Test(&test);
+    cout << test << endl;
+    //int* test1 = &test;
+
+
+    /*string TxtFile = "";
     cout << "Enter Hello: ";
     cin >> TxtFile;
     AddText(&TxtFile);
-    cout << TxtFile;
-    //юзер вводит слово "Hello". написать функцию которая изменит 
-    //переменную и выводит "Hello World
+    cout << TxtFile;*/
+ 
 
 
 
