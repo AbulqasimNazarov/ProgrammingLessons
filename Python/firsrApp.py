@@ -1,3 +1,21 @@
+x = 30
+x = x + 1
+x = 1.6
+
+
+
+print(x)
+print(x)
+print(90)
+print(90)
+print(90)
+print(90)
+print(90)
+print(90)
+print(90)
+print(90)
+print(90)
+
 # test-1 = 67 #kebab case
 # radiusOkrujnosti = 45  #Camel case
 # test_23 = 34 #snake case
@@ -87,5 +105,5 @@
 
 
 
-money = 12
-print(float(money))
+#money = 12
+#print(float(money))
