@@ -133,6 +133,7 @@
     <ClInclude Include="BankAccount.h" />
     <ClInclude Include="Book.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="StudentGroup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
